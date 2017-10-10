@@ -1,0 +1,55 @@
+{
+  "name": "trane",
+  "version": "0.0.1",
+  "description": "The Trane Command Line Interface (CLI) is your go-to tool for developing MEAN apps",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">= 8.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JElbourne/Trane.git"
+  },
+  "keywords": [
+    "cli",
+    "generator",
+    "mongosdb",
+    "express",
+    "angular",
+    "node",
+    "js",
+    "app",
+    "web",
+    "api",
+    "rest",
+    "restfull",
+    "mongoose"
+  ],
+  "author": "Jay Elbourne <jayelbourne@gmail.com>",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "trane": "./bin/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/JElbourne/Trane/issues"
+  },
+  "homepage": "https://github.com/JElbourne/Trane#readme",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "clear": "0.0.1",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.0",
+    "inquirer": "^3.3.0",
+    "lodash": "^4.17.4",
+    "preferences": "^0.2.1",
+    "yargs": "^9.0.1"
+  },
+  "files": [
+    "bin/",
+    "lib"
+  ]
+}
