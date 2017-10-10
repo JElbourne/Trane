@@ -39,17 +39,33 @@
   },
   "homepage": "https://github.com/JElbourne/Trane#readme",
   "dependencies": {
+    "@angular/animations": "^4.4.4",
+    "@angular/cdk": "^2.0.0-beta.12",
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/forms": "^4.0.0",
+    "@angular/http": "^4.0.0",
+    "@angular/material": "^2.0.0-beta.12",
+    "@angular/platform-browser": "^4.0.0",
+    "@angular/platform-browser-dynamic": "^4.0.0",
+    "@angular/router": "^4.0.0",
+    "@angular/cli": "1.0.1",
+    "@angular/compiler-cli": "^4.0.0",
     "chalk": "^2.1.0",
+    "child_process": "^1.0.2",
     "clear": "0.0.1",
     "clui": "^0.3.6",
     "figlet": "^1.2.0",
     "inquirer": "^3.3.0",
     "lodash": "^4.17.4",
     "preferences": "^0.2.1",
+    "rxjs": "^5.4.3",
     "yargs": "^9.0.1"
   },
   "files": [
     "bin/",
     "lib"
-  ]
+  ],
+  "devDependencies": {}
 }
