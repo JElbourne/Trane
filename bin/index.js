@@ -2,16 +2,8 @@
 
 const chalk = require('chalk');
 const clear = require('clear');
-const CLI = require('clui');
-const Spinner = CLI.Spinner;
 const figlet = require('figlet');
-const inquirer = require('inquirer');
-const Preferences = require('preferences');
-const _ = require('lodash');
-const fs = require('fs');
 const yargs = require('yargs');
-
-const newApp = require('../lib/newapp');
 
 // Initial setup of the terminal window
 // Clear screen
@@ -28,6 +20,7 @@ console.log(
 const argv = yargs.argv;
 const command = argv._[0];
 
-if (command === "new") {
-    newApp.create(argv);
-}
+yargs.commandDir('../lib/cmds')
+    .demandCommand()
+    .help()
+    .argv
